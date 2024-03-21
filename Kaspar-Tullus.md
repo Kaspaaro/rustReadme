@@ -28,9 +28,8 @@ Tools provided by the security community can aid in assessing and mitigating vul
 
 ### Preventing Future Security Issues
 
-To prevent future security issues, consider the following measures:
-
-- **Dependency Monitoring**: Regularly monitor dependencies used in your projects for security advisories and updates.
+- **Dependency Monitoring**: Regularly monitor dependencies used in your projects for security advisories and updates with for example the cargo audit command, instructions are also found here :
+  [https://rustsec.org/](https://rustsec.org/).
 
 - **Dependency Monitoring tool**: cargo install cargo-audit, after it you can use cargo audit wich will show if there are any vulnerabilities on the crate that you are using or not.
 
@@ -42,6 +41,10 @@ To notify the maintainers of the RSA crate about security issues:
 
 - **GitHub Issues**: Open a new issue on the GitHub repository associated with the RSA crate, detailing the security vulnerability and providing relevant links to advisories.
 
+## How to solve the issue
+- Currently, there isn't a direct solution available for resolving the issue, only way you can fix it is to use another cryptographic library with no vulnerabilities.
+- Contact the owner of the crate to let them know about the issue if they already have not aknowledged the issue.
+- 
 ### Conclusion
 
-The RSA crate's vulnerability to the Marvin Attack poses a significant risk to cryptographic key security. While efforts are underway by the Red Hat community to address this vulnerability, users are advised to update to patched versions or consider alternative cryptographic libraries temporarily. Engaging with maintainers and staying vigilant for updates and advisories can help mitigate such security risks effectively.
+The [RSA crate's](https://crates.io/crates/rsa) vulnerability to the [Marvin Attack](https://people.redhat.com/~hkario/marvin/) poses a significant risk to cryptographic key security. While efforts are underway by the Red Hat community to address this vulnerability, users are advised to update to patched versions or consider alternative cryptographic libraries temporarily. Engaging with maintainers and staying vigilant for updates and advisories can help mitigate such security risks effectively.
