@@ -1,3 +1,11 @@
+## How did i find this crate?
+I found this crate when searching inside of the RustSec database on github.
+Link to the issue in the RSA crate (got the link from RustSec website) : [https://github.com/RustCrypto/RSA/issues/19#issuecomment-1822995643](https://github.com/RustCrypto/RSA/issues/19#issuecomment-1822995643)
+
+Apparently its for implementing RSA encryption and decryption.
+
+Documentation link for the crate :[ https://docs.rs/rsa/0.9.6/rsa/](https://docs.rs/rsa/0.9.6/rsa/)
+
 ## RSA Crate Security Advisory
 
 ![RSA Crate](https://github.com/Kaspaaro/rustReadme/assets/114400605/b82021f8-18d9-4abf-b467-525f8af2b3da)
