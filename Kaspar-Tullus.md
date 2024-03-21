@@ -44,7 +44,7 @@ To notify the maintainers of the RSA crate about security issues:
 ## How to solve the issue
 - Currently, there isn't a direct solution available for resolving the issue, only way you can fix it is to use another cryptographic library with no vulnerabilities.
 - Contact the owner of the crate to let them know about the issue if they already have not aknowledged the issue.
-- 
+  
 ### Conclusion
 
 The [RSA crate's](https://crates.io/crates/rsa) vulnerability to the [Marvin Attack](https://people.redhat.com/~hkario/marvin/) poses a significant risk to cryptographic key security. While efforts are underway by the Red Hat community to address this vulnerability, users are advised to update to patched versions or consider alternative cryptographic libraries temporarily. Engaging with maintainers and staying vigilant for updates and advisories can help mitigate such security risks effectively.
